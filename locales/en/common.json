@@ -19,7 +19,8 @@
     "edit": "Edit",
     "submit": "Submit",
     "loading": "Loading...",
-    "retry": "Try again"
+    "retry": "Try again",
+    "confirm": "Are you sure?"
   }
 }
 
