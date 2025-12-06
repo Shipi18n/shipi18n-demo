@@ -17,6 +17,7 @@
     "cancel": "Cancel",
     "delete": "Delete",
     "edit": "Edit",
-    "submit": "Submit"
+    "submit": "Submit",
+    "loading": "Loading..."
   }
 }
