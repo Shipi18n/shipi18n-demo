@@ -19,6 +19,7 @@
     "edit": "Modifier",
     "submit": "Soumettre",
     "loading": "Chargement...",
-    "retry": "Essayer à nouveau"
+    "retry": "Essayer à nouveau",
+    "confirm": "Es-tu sûr?"
   }
 }
