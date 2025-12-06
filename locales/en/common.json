@@ -18,7 +18,8 @@
     "delete": "Delete",
     "edit": "Edit",
     "submit": "Submit",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "retry": "Try again"
   }
 }
 
