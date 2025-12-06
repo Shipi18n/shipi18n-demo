@@ -20,7 +20,8 @@
     "submit": "Submit",
     "loading": "Loading...",
     "retry": "Try again",
-    "confirm": "Are you sure?"
+    "confirm": "Are you sure?",
+    "success": "Operation completed successfully"
   }
 }
 
