@@ -22,6 +22,10 @@
     "retry": "Try again",
     "confirm": "Are you sure?",
     "success": "Operation completed successfully"
+  },
+  "messages": {
+    "welcome": "Welcome back, {{name}}!",
+    "itemCount": "You have {count} items in your cart."
   }
 }
 
