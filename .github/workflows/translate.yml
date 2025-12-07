@@ -5,7 +5,13 @@ on:
     branches: [main]
     paths:
       - 'locales/en/**'
-  workflow_dispatch:  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      full-sync:
+        description: 'Force full re-translation (ignore incremental)'
+        required: false
+        default: 'false'
+        type: boolean
 
 jobs:
   translate:
@@ -28,3 +34,4 @@ jobs:
           output-dir: 'locales'
           create-pr: 'true'
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          incremental: ${{ github.event.inputs.full-sync == 'true' && 'false' || 'true' }}
