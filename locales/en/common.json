@@ -33,6 +33,9 @@
   "webhook": {
     "test": "Webhook test message",
     "success": "Webhook test successful"
+  },
+  "notification": {
+    "emailTest": "Testing email notification"
   }
 }
 
